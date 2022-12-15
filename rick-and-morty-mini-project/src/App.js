@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import characterArray from './data/characters'
 
 function App() {
   return (

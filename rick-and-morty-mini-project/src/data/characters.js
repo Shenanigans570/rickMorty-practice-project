@@ -1,6 +1,6 @@
 
 
-  "characters": [
+const characterArray = [
     {
       "id": 1,
       "name": "Rick Sanchez",
@@ -616,3 +616,4 @@
       "created": "2017-11-04T22:34:53.659Z"
     }
   ]
+export default characterArray
