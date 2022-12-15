@@ -1,11 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
-import characterArray from './data/characters'
+import './index.css'
+import './App.css'
+import characterArray from './data/characters.js'
+import CharactersList from './components/CharactersList.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <CharactersList  characterArray = {characterArray}/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
